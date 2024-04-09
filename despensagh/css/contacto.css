@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-contacto {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido-interno {
+  text-decoration: none;
+}
+
+.boton-contacto {
+  background-color: #ffffff;
+  border: none;
+  width: 400px; /* Aumenta el ancho del botón */
+  height: 170px; /* Aumenta el alto del botón */
+  border-radius: 10px; /* Aumenta el radio del borde */
+  margin: 10px; /* Aumenta el espacio entre botones */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+
+.boton-contacto:hover{
+  cursor: pointer;
+  background-color: #9aff5c;
+}
+
+.icon {
+  font-size: 24px; /* Ajusta el tamaño del ícono */
+}
+
+.texto-contacto h3{
+  margin: 5px; /* Ajusta el espacio entre elementos */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+.texto-contacto p{
+  font-size: 15px;
+}

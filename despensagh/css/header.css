@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.publicidad {
+    background-color: #222222;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden; /* Evita que aparezca la barra de desplazamiento horizontal */
+}
+
+.publicidad p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* HEADER */
+.navegacion{
+    height: 85px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 30px;
+}
+
+.navegacion img{
+    height: 70px;
+    padding-left: 30px;
+}
+
+.option-nav, .option-derecha-nav {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.option-nav a, .option-derecha-nav a {
+    color: #000; /* Negro */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.material-symbols-outlined {
+    margin-left: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 180px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 10px 0;
+    list-style: none;
+    z-index: 1;
+}
+
+.submenu li {
+    margin-bottom: 10px;
+}
+
+.submenu a {
+    color: #000; /* Negro */
+    text-decoration: none;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.option-nav:hover .submenu,
+.option-derecha-nav:hover .submenu {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #8B1316; /* Rojo Oscuro */
+    color: #fff; /* Blanco */
+}
+
+
+/* BARRA BUSQUEDA */
+.search{
+    padding-left: 280px;
+}
+
+.contenedor-search{
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    width: 210px;
+}
+
+.button-icono-search{
+    background: transparent;
+    border: 0;
+    padding-right: 3px;
+}
+
+.button-icono-search:hover{
+    cursor: pointer;
+}
+
+.buscar{
+    border: 0;
+}
+
+.contenedor-search input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+/* OPTIONES NAVEGACIÓN DERECHA */
+.option-nav-derecha{
+    display: flex;
+}
+
+.option-derecha-nav{
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+
+.google-icon{
+    height: 10px;
+}
+

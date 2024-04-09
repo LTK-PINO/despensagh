@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* FOOTER */
+footer{
+    padding-top: 120px;
+}
+
+.contenido-footer{
+    background-color: #000000;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 165px;
+    padding-top: 35px;
+}
+
+.contenido-footer h1{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 10px;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.medios{
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor-medios{
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.contenedor-medios img{
+    height: 30px;
+}
+
+.enlaces-categorias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enlaces-categorias a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.politicas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.politicas a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enlaces-categorias a:hover,
+.politicas a:hover{
+    text-decoration: underline;
+}
+
+.contacto p{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+.contenedor-producto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    gap: 30px;
+}
+
+/* PARTE IZQUIERDA */
+
+.contenido-izquierda-imagen img{
+    border: solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/* PARTE DERECHA */
+.contenido-derecha{
+    width: 40%;
+}
+
+.contenido-texto-h1 h1{
+    color: #000000;
+}
+
+.contenido-texto-categoria{
+    color: #090707;
+    padding-top: 2.5px;
+    padding-bottom: 10px;
+}
+
+.contenido-texto-precio p,
+.contenido-texto-origen p {
+    color: #000000;
+    margin-left: 16px;
+}
+
+.contenido-texto-precio p::before,
+.contenido-texto-origen p::before {
+    content: "•"; /* Utiliza un punto para simular una viñeta */
+    color: #000000;
+    display: inline-block;
+    width: 10px; /* Ajusta el ancho de la viñeta según sea necesario */
+    margin-left: -20px; /* Ajusta el margen para alinear con el texto */
+}
+
+
+.titulo-descripcion{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000; /* Agrega una línea horizontal */
+    padding-bottom: 10px; /* Ajusta el espacio entre la línea y el siguiente párrafo */
+    margin-bottom: 10px; /* Ajusta el espacio entre los párrafos */
+}
+
+.contenido-texto-descripcion {
+    color: #000000;
+}
+
+
+
+/* BOTONES */
+.contenido-botones{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.boton-cesta button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    width: 190px;
+    border-radius: 18px;
+    border-color: transparent;
+    background-color: #8B1316;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton-cesta button:hover{
+    cursor: pointer;
+    border-radius: 18px;
+    color: #ffffff;
+    background-color: #33700e;
+}
+
+.boton-cesta-favorito button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    width: 190px;
+    border-radius: 18px;
+    border-color: transparent;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton-cesta-favorito button:hover{
+    cursor: pointer;
+    border-radius: 18px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
